@@ -43,9 +43,10 @@ st.write("Find the 5 closest Greggs locations by entering a postcode.")
 
 st.sidebar.title("Read Me")
 st.sidebar.info(
-    "This app helps you find the 5 nearest Greggs locations based on a postcode you enter.\n\n"
-    "The search uses OpenCage geolocation and distance algorithms to calculate proximity.\n\n"
-    "Use the postcode field and radius slider to get started."
+    "This is a replicated version of a sales event tool.\n\n"
+    "It uses the OpenCage geolocation API and distance algorithms to calculate proximity.\n\n"
+    "The original version, used by Sales, contains customer data. This version uses Greggs locations as a demo.\n\n"
+    "The idea: Enter a postcode to find nearby shops—mimicking how we'd show prospects nearby customers for social proof selling."
 )
 
 data = load_data()
