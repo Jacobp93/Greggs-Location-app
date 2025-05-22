@@ -46,7 +46,8 @@ st.sidebar.info(
     "This is a replicated version of my sales event tool.\n\n"
     "It uses OpenCage's geolocation API and algorithms in Python to calculate proximity.\n\n"
     "The original version used by Sales includes customer data, so this version uses Greggs locations instead as a fun example project.\n\n"
-    "The idea is to enter a prospect's postcode, name or id to return a short list of nearby customers displaying their products & customer tenure to support social proof selling."
+    "The idea is to enter a prospect's postcode, name or id to return a short list of nearby customers displaying their products & customer tenure to support social proof selling.\n\n"
+    "Try entering any UK Postcode"
 )
 
 data = load_data()
