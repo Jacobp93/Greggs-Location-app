@@ -4,8 +4,7 @@ import numpy as np
 from geopy.geocoders import OpenCage
 from sklearn.neighbors import NearestNeighbors
 
-# Set up API key
-geolocator = OpenCage(api_key="")  # Replace with your key
+geolocator = OpenCage(api_key=st.secrets["opencage"]["api_key"])
 
 @st.cache_data
 def load_data():
