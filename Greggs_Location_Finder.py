@@ -41,6 +41,13 @@ def find_nearest_locations(target_location, data, radius=10):
 st.title("Greggs Location Finder")
 st.write("Find the 5 closest Greggs locations by entering a postcode.")
 
+st.sidebar.title("Read Me")
+st.sidebar.info(
+    "This app helps you find the 5 nearest Greggs locations based on a postcode you enter.\n\n"
+    "The search uses OpenCage geolocation and distance algorithms to calculate proximity.\n\n"
+    "Use the postcode field and radius slider to get started."
+)
+
 data = load_data()
 
 postcode = st.text_input("Enter a postcode:", "")
